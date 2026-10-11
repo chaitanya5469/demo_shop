@@ -1,0 +1,65 @@
+{"level":"info","message":"demo_shop checkout-service listening on http://localhost:4000","timestamp":"2026-10-10T06:07:02.803Z"}
+{"level":"info","message":"Pool config: {\"max\":1,\"acquireTimeoutMs\":1000,\"available\":1,\"queueLength\":0}","timestamp":"2026-10-10T06:07:02.806Z"}
+{"level":"info","message":"Simulating traffic spike: 10 concurrent checkouts","timestamp":"2026-10-10T06:07:11.935Z"}
+{"item":"spike-item-1","level":"info","message":"Order created","orderId":1,"qty":1,"timestamp":"2026-10-10T06:07:12.096Z"}
+{"item":"spike-item-2","level":"info","message":"Order created","orderId":2,"qty":1,"timestamp":"2026-10-10T06:07:12.253Z"}
+{"item":"spike-item-3","level":"info","message":"Order created","orderId":3,"qty":1,"timestamp":"2026-10-10T06:07:12.408Z"}
+{"item":"spike-item-4","level":"info","message":"Order created","orderId":4,"qty":1,"timestamp":"2026-10-10T06:07:12.563Z"}
+{"item":"spike-item-5","level":"info","message":"Order created","orderId":5,"qty":1,"timestamp":"2026-10-10T06:07:12.722Z"}
+{"item":"spike-item-6","level":"info","message":"Order created","orderId":6,"qty":1,"timestamp":"2026-10-10T06:07:12.882Z"}
+{"level":"error","message":"Spike checkout 8 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":8,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:07:12.944Z"}
+{"level":"error","message":"Spike checkout 9 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":9,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:07:13.355Z"}
+{"level":"error","message":"Spike checkout 10 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":10,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:07:13.355Z"}
+{"item":"spike-item-7","level":"info","message":"Order created","orderId":7,"qty":1,"timestamp":"2026-10-10T06:07:13.355Z"}
+{"level":"info","message":"Spike complete: 7 succeeded, 3 failed","timestamp":"2026-10-10T06:07:13.355Z"}
+{"level":"info","message":"demo_shop checkout-service listening on http://localhost:4000","timestamp":"2026-10-10T06:49:45.612Z"}
+{"level":"info","message":"Pool config: {\"max\":1,\"acquireTimeoutMs\":1000,\"available\":1,\"queueLength\":0}","timestamp":"2026-10-10T06:49:45.613Z"}
+{"level":"info","message":"Simulating traffic spike: 10 concurrent checkouts","timestamp":"2026-10-10T06:50:32.457Z"}
+{"item":"spike-item-1","level":"info","message":"Order created","orderId":1,"qty":1,"timestamp":"2026-10-10T06:50:32.611Z"}
+{"item":"spike-item-2","level":"info","message":"Order created","orderId":2,"qty":1,"timestamp":"2026-10-10T06:50:32.770Z"}
+{"item":"spike-item-3","level":"info","message":"Order created","orderId":3,"qty":1,"timestamp":"2026-10-10T06:50:32.929Z"}
+{"item":"spike-item-4","level":"info","message":"Order created","orderId":4,"qty":1,"timestamp":"2026-10-10T06:50:33.094Z"}
+{"item":"spike-item-5","level":"info","message":"Order created","orderId":5,"qty":1,"timestamp":"2026-10-10T06:50:33.245Z"}
+{"item":"spike-item-6","level":"info","message":"Order created","orderId":6,"qty":1,"timestamp":"2026-10-10T06:50:33.403Z"}
+{"level":"error","message":"Spike checkout 8 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":8,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:50:33.463Z"}
+{"level":"error","message":"Spike checkout 9 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":9,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:50:33.510Z"}
+{"level":"error","message":"Spike checkout 10 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":10,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:50:33.510Z"}
+{"item":"spike-item-7","level":"info","message":"Order created","orderId":7,"qty":1,"timestamp":"2026-10-10T06:50:33.554Z"}
+{"level":"info","message":"Spike complete: 7 succeeded, 3 failed","timestamp":"2026-10-10T06:50:33.554Z"}
+{"level":"info","message":"Simulating traffic spike: 10 concurrent checkouts","timestamp":"2026-10-10T06:51:23.851Z"}
+{"item":"spike-item-1","level":"info","message":"Order created","orderId":8,"qty":1,"timestamp":"2026-10-10T06:51:24.004Z"}
+{"item":"spike-item-2","level":"info","message":"Order created","orderId":9,"qty":1,"timestamp":"2026-10-10T06:51:24.163Z"}
+{"item":"spike-item-3","level":"info","message":"Order created","orderId":10,"qty":1,"timestamp":"2026-10-10T06:51:24.318Z"}
+{"item":"spike-item-4","level":"info","message":"Order created","orderId":11,"qty":1,"timestamp":"2026-10-10T06:51:24.471Z"}
+{"item":"spike-item-5","level":"info","message":"Order created","orderId":12,"qty":1,"timestamp":"2026-10-10T06:51:24.636Z"}
+{"item":"spike-item-6","level":"info","message":"Order created","orderId":13,"qty":1,"timestamp":"2026-10-10T06:51:24.786Z"}
+{"level":"error","message":"Spike checkout 8 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":8,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:51:24.861Z"}
+{"level":"error","message":"Spike checkout 9 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":9,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:51:24.861Z"}
+{"level":"error","message":"Spike checkout 10 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":10,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T06:51:24.862Z"}
+{"item":"spike-item-7","level":"info","message":"Order created","orderId":14,"qty":1,"timestamp":"2026-10-10T06:51:24.944Z"}
+{"level":"info","message":"Spike complete: 7 succeeded, 3 failed","timestamp":"2026-10-10T06:51:24.944Z"}
+{"level":"info","message":"Simulating traffic spike: 10 concurrent checkouts","timestamp":"2026-10-10T07:02:19.658Z"}
+{"item":"spike-item-1","level":"info","message":"Order created","orderId":15,"qty":1,"timestamp":"2026-10-10T07:02:19.824Z"}
+{"item":"spike-item-2","level":"info","message":"Order created","orderId":16,"qty":1,"timestamp":"2026-10-10T07:02:19.978Z"}
+{"item":"spike-item-3","level":"info","message":"Order created","orderId":17,"qty":1,"timestamp":"2026-10-10T07:02:20.131Z"}
+{"item":"spike-item-4","level":"info","message":"Order created","orderId":18,"qty":1,"timestamp":"2026-10-10T07:02:20.285Z"}
+{"item":"spike-item-5","level":"info","message":"Order created","orderId":19,"qty":1,"timestamp":"2026-10-10T07:02:20.437Z"}
+{"item":"spike-item-6","level":"info","message":"Order created","orderId":20,"qty":1,"timestamp":"2026-10-10T07:02:20.594Z"}
+{"level":"error","message":"Spike checkout 8 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":8,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:02:20.663Z"}
+{"level":"error","message":"Spike checkout 9 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":9,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:02:20.665Z"}
+{"level":"error","message":"Spike checkout 10 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":10,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:02:20.665Z"}
+{"item":"spike-item-7","level":"info","message":"Order created","orderId":21,"qty":1,"timestamp":"2026-10-10T07:02:20.746Z"}
+{"level":"info","message":"Spike complete: 7 succeeded, 3 failed","timestamp":"2026-10-10T07:02:20.746Z"}
+{"item":"widget","level":"info","message":"Order created","orderId":22,"qty":1,"timestamp":"2026-10-10T07:04:31.810Z"}
+{"level":"info","message":"Simulating traffic spike: 10 concurrent checkouts","timestamp":"2026-10-10T07:08:11.210Z"}
+{"item":"spike-item-1","level":"info","message":"Order created","orderId":23,"qty":1,"timestamp":"2026-10-10T07:08:11.368Z"}
+{"item":"spike-item-2","level":"info","message":"Order created","orderId":24,"qty":1,"timestamp":"2026-10-10T07:08:11.526Z"}
+{"item":"spike-item-3","level":"info","message":"Order created","orderId":25,"qty":1,"timestamp":"2026-10-10T07:08:11.684Z"}
+{"item":"spike-item-4","level":"info","message":"Order created","orderId":26,"qty":1,"timestamp":"2026-10-10T07:08:11.838Z"}
+{"item":"spike-item-5","level":"info","message":"Order created","orderId":27,"qty":1,"timestamp":"2026-10-10T07:08:11.990Z"}
+{"item":"spike-item-6","level":"info","message":"Order created","orderId":28,"qty":1,"timestamp":"2026-10-10T07:08:12.143Z"}
+{"level":"error","message":"Spike checkout 8 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":8,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:08:12.224Z"}
+{"level":"error","message":"Spike checkout 9 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":9,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:08:12.227Z"}
+{"level":"error","message":"Spike checkout 10 failed: TimeoutError: pool acquire timeout after 1000ms","requestIndex":10,"route":"/api/simulate-spike","stack":"Error: TimeoutError: pool acquire timeout after 1000ms\n    at Timeout._onTimeout (D:\\MyCodes\\operator-agent\\demo_shop\\src\\db.js:50:16)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-10-10T07:08:12.227Z"}
+{"item":"spike-item-7","level":"info","message":"Order created","orderId":29,"qty":1,"timestamp":"2026-10-10T07:08:12.299Z"}
+{"level":"info","message":"Spike complete: 7 succeeded, 3 failed","timestamp":"2026-10-10T07:08:12.300Z"}
