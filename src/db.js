@@ -11,9 +11,8 @@
 const logger = require('./logger');
 
 // ─── Pool configuration ────────────────────────────────────────────────────
-// SEEDED BUG: max: 1 causes pool exhaustion under concurrent load
 const POOL_CONFIG = {
-  max: 1,
+  max: 10,
   acquireTimeoutMs: 1000,
   queryLatencyMs: 150,  // simulated query latency (10 requests at max:1 = 1500ms > 1000ms timeout)
 };
@@ -22,7 +21,8 @@ const POOL_CONFIG = {
 let availableConnections = POOL_CONFIG.max;
 let waitQueue = [];
 
-function releaseConnection() {
+function releaseConnection()
+{
   if (waitQueue.length > 0) {
     const resolve = waitQueue.shift();
     resolve(); // give connection to the next waiter
@@ -72,7 +72,7 @@ async function createOrder(item, qty) {
   try {
     // Simulate query latency
     await new Promise(res => setTimeout(res, POOL_CONFIG.queryLatencyMs));
-    const order = {
+    const order = { 
       id: orderIdCounter++,
       item,
       qty,
